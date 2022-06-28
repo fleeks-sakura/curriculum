@@ -1,0 +1,15 @@
+
+STP.txt
+
+
+1:Switch3
+
+2:Switch1→F0/1 BP,F0/2 RP
+   Switch2→F0/1 DP,F0/2 RP
+   Switch3→E0/1 DP,E0/2 DP
+   Switch4→E0/1 DP,E0/2 RP
+
+Switch3がルートブリッジで、
+Switch1のF0/1がブロッキングポートになる
+プライオリティの値が一番大きく、
+それぞれのポートパスコストを割り当てたときにRP,DPには選出されないから
